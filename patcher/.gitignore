@@ -1,0 +1,12 @@
+Bak/
+
+*.asm
+*.obj
+*.dll.a
+*.undo
+
+dynrpg_patcher.exe
+dynrpg.hpd
+
+rpg_rt_original.exe
+

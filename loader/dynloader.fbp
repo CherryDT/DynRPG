@@ -1,0 +1,36 @@
+[Project]
+Version=3
+Description=DynRPG Loader
+Api=fb (FreeBASIC),win (Windows)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Current=1
+1=Windows dll,fbc -s gui -dll -export -R -v
+Recompile=2
+Module=Module Build,fbc -c
+Output=..\dyndemo\dynloader.dll
+Run=
+Delete=
+PreBuildBatch=
+PostBuildBatch=
+[TabOrder]
+TabOrder=1,2,3
+CurrentTab=1
+[File]
+1=dynloader.bas
+2=dynloader.rc
+3=dynloader.bi
+[BreakPoint]
+1=
+3=
+2=
+[FileInfo]
+1=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,7 @@
+Bak/
+
+*.asm
+*.obj
+*.dll.a
+*.undo
+

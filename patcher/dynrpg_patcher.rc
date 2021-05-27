@@ -1,0 +1,35 @@
+#define MANIFEST 24
+#define IDI_MAINICON 100
+#define IDR_HPD 101
+#define IDR_EXE 102
+#define IDR_DLL 103
+#define IDR_XPMANIFEST1 1
+#define IDR_VERSION1 1
+
+IDI_MAINICON ICON DISCARDABLE "icon.ico"
+IDR_HPD RCDATA DISCARDABLE "dynrpg.hpd"
+IDR_EXE RCDATA DISCARDABLE "../dyndemo/rpg_rt2.exe"
+IDR_DLL RCDATA DISCARDABLE "../dyndemo/dynloader.dll"
+
+IDR_XPMANIFEST1 MANIFEST "xpmanifest.xml"
+
+IDR_VERSION1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x00000004
+FILETYPE 0x00000000
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "FFFF0000"
+    BEGIN
+      VALUE "FileVersion", "1.0.0.0\0"
+      VALUE "ProductVersion", "1.0.0.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0xFFFF, 0x0000
+  END
+END
+

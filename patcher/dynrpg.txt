@@ -1,0 +1,4 @@
+CREATE
+.\dynrpg.hpd
+..\dyndemo\RPG_RT.exe
+..\dyndemo\RPG_RT2.exe

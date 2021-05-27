@@ -1,0 +1,36 @@
+[Project]
+Version=3
+Description=DynRPG Patcher
+Api=fb (FreeBASIC),win (Windows)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=4
+1=Windows Console (export all),fbc -g -s console -R -v -maxerr inf -Wl --export-all
+2=Windows Console (debug),fbc -g -s console -R -v -maxerr inf
+3=Windows GUI (debug),fbc -g -s gui -R -v -maxerr inf
+4=Windows GUI,fbc -s gui -R -v
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=1,3,2
+CurrentTab=2
+[File]
+1=dynrpg_patcher.bas
+2=dynrpg_patcher.rc
+3=rm2kdev\hpd.bi
+[BreakPoint]
+1=98
+3=
+[FileInfo]
+1=0,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

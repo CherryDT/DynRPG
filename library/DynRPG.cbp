@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DynRPG" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="..\sdk\lib\libDynRPG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-Wno-unused-variable" />
+					<Add directory="..\sdk\include\DynRPG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add option="-static-libgcc" />
+			<Add option="-static-libstdc++" />
+		</Linker>
+		<Unit filename="Actor.cpp" />
+		<Unit filename="Battler.cpp" />
+		<Unit filename="Canvas.cpp" />
+		<Unit filename="Character.cpp" />
+		<Unit filename="DString.cpp" />
+		<Unit filename="DynRPG.cpp" />
+		<Unit filename="EventScriptData.cpp" />
+		<Unit filename="EventScriptLine.cpp" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Input.cpp" />
+		<Unit filename="Map.cpp" />
+		<Unit filename="Music.cpp" />
+		<Unit filename="Picture.cpp" />
+		<Unit filename="Screen.cpp" />
+		<Unit filename="Sound.cpp" />
+		<Unit filename="System.cpp" />
+		<Unit filename="..\sdk\include\DynRPG\Action.h" />
+		<Unit filename="..\sdk\include\DynRPG\Actor.h" />
+		<Unit filename="..\sdk\include\DynRPG\ArrayBaseOne.h" />
+		<Unit filename="..\sdk\include\DynRPG\BattleSettings.h" />
+		<Unit filename="..\sdk\include\DynRPG\Battler.h" />
+		<Unit filename="..\sdk\include\DynRPG\Canvas.h" />
+		<Unit filename="..\sdk\include\DynRPG\Catalog.h" />
+		<Unit filename="..\sdk\include\DynRPG\Character.h" />
+		<Unit filename="..\sdk\include\DynRPG\DArray.h" />
+		<Unit filename="..\sdk\include\DynRPG\DBActor.h" />
+		<Unit filename="..\sdk\include\DynRPG\DBSystem.h" />
+		<Unit filename="..\sdk\include\DynRPG\DBitmap.h" />
+		<Unit filename="..\sdk\include\DynRPG\DList.h" />
+		<Unit filename="..\sdk\include\DynRPG\DString.h" />
+		<Unit filename="..\sdk\include\DynRPG\DynRPG.h" />
+		<Unit filename="..\sdk\include\DynRPG\EventScriptData.h" />
+		<Unit filename="..\sdk\include\DynRPG\EventScriptLine.h" />
+		<Unit filename="..\sdk\include\DynRPG\Image.h" />
+		<Unit filename="..\sdk\include\DynRPG\Input.h" />
+		<Unit filename="..\sdk\include\DynRPG\Map.h" />
+		<Unit filename="..\sdk\include\DynRPG\Monster.h" />
+		<Unit filename="..\sdk\include\DynRPG\MoveRoute.h" />
+		<Unit filename="..\sdk\include\DynRPG\Music.h" />
+		<Unit filename="..\sdk\include\DynRPG\ParsedCommentData.h" />
+		<Unit filename="..\sdk\include\DynRPG\Picture.h" />
+		<Unit filename="..\sdk\include\DynRPG\Screen.h" />
+		<Unit filename="..\sdk\include\DynRPG\Sound.h" />
+		<Unit filename="..\sdk\include\DynRPG\Switches.h" />
+		<Unit filename="..\sdk\include\DynRPG\System.h" />
+		<Unit filename="..\sdk\include\DynRPG\Variables.h" />
+		<Unit filename="..\sdk\include\DynRPG\_Documentation.h" />
+		<Unit filename="..\sdk\include\DynRPG\_GettingStarted.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="3" line="1" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
