@@ -26,6 +26,8 @@ CurrentTab=1
 1=dynloader.bas
 2=dynloader.rc
 3=dynloader.bi
+Main=1
+MainRC=2
 [BreakPoint]
 1=
 3=
