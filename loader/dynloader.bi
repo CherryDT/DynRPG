@@ -1,5 +1,4 @@
 #Include "windows.bi"
-#Include "fbgfx.bi"
 #Include "string.bi"
 #Include "file.bi"
 #Include "useful/file_obj_standalone.bi"
@@ -22,16 +21,6 @@ Dim Shared StopCallbacks As Boolean
 
 Dim Shared KeyNamesBuffer As ZString * 32766 
 Dim Shared ValueBuffer As ZString * 32766
-
-Data 0, 0, 0, 0, 0, 0, 1, 1, 1
-Data 0, 0, 0, 0, 0, 1, 0, 0, 1
-Data 0, 1, 0, 0, 1, 0, 0, 0, 1
-Data 1, 0, 1, 1, 0, 0, 0, 1, 0
-Data 1, 0, 1, 0, 0, 0, 1, 0, 0
-Data 0, 1, 0, 0, 0, 1, 0, 0, 0
-Data 0, 1, 0, 0, 1, 1, 0, 0, 0
-Data 1, 0, 1, 1, 0, 0, 1, 0, 0
-Data 1, 1, 0, 0, 1, 1, 0, 0, 0
 
 Declare Sub OnExit()
 
