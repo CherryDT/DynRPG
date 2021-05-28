@@ -182,10 +182,8 @@ bool onStartup(char *pluginName) {
 
 	So, if you compile this plugin, make sure the DLL file (\c are_you_sure.dll)
 	was put into the \c DynPlugins directory and your test project was
-	successfully patched using \ref patch, you should see the DynRPG logo when
-	you start the game, followed by our message box.
-
-	By the way, the DynRPG logo cannot be removed. Yes, that's intentional.
+	successfully patched using \ref patch, you should see our message box when
+	you start the game.
 
 	\section sdk_condition_icons Condition Icons - More Advanced
 	Enough of nonsense. Now we are going to create something useful. We are
