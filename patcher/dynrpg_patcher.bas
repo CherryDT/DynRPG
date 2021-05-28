@@ -5,10 +5,12 @@
 #Include "string.bi"
 #Include "useful/file_obj_standalone.bi"
 #Define _NO_HPA
-#Include "rm2kdev/hpd.bi"
+#Include "rm2kdev/rm2kdev_lite.bi"
 #Define ExtractPath(_st_) Left((_st_), InStrRev((_st_), "\") - 1)
 
 #Define VERSION "0.20"
+
+Using RM2kDev
 
 Dim Shared hInstance As HINSTANCE
 hInstance = GetModuleHandle(NULL)

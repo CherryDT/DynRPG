@@ -27,8 +27,10 @@ CurrentTab=2
 1=dynrpg_patcher.bas
 2=dynrpg_patcher.rc
 3=rm2kdev\hpd.bi
+Main=1
+MainRC=2
 [BreakPoint]
-1=98
+1=100
 3=
 [FileInfo]
 1=0,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
