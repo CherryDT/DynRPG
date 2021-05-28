@@ -19,7 +19,7 @@ Function GetIcon() As FB.IMAGE Ptr
 	Return img
 End Function
 
-' MultiPut by MOD: https://www.freebasic-portal.de/code-beispiele/grafik-und-fonts/rotation-skalierung-mit-multiput-241.html
+' MultiPut by D.J.Peters: https://www.freebasic.net/forum/viewtopic.php?f=8&t=19303
 Sub MultiPut(Byval lpTarget As Any Ptr= 0, _
              Byval xMidPos  As Integer= 0, _
              Byval yMidPos  As Integer= 0, _
